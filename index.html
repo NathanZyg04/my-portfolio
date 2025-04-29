@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4e6bc7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nathan Zygmont</h1>
+        <p><a href="https://github.com/NathanZyg04" target="_blank">GitHub</a></p>
+
+        <p>Pursuing a degree in Computer Science and a Minor in Mathematics</p>
+    </header>
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="project.html">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate computer science student with a love for coding and problem-solving. I enjoy building projects that allow others to live better lives and be more informed. Feel free to explore my portfolio to see what I've been working on!</p>
+        <h2>Education and Skills</h2>
+        <p>I am currently pursuing a degree in Computer Science at the University of Missouri Columbia. I have experience in various programming languages and technologies, including: C# .Net, Java, mySQL, C, Swift and SwiftUI</p>
+        <P>I enjoy working on projects that are meaningful to me and have the opprotunity to positivly impact other peoples lives.</P>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Macro Tracking iOS App</h3>
+                <p>(WIP) This is a Meal/Macro tracking app developed for iOS using Swift and SwiftUI</p>
+            </div>
+            <div class="project">
+                <h3>iFinance</h3>
+                <p>A simple Finance managmenet Application. Developed using Windows Form using C# .NET Entity Framework</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>A brief description of your project. Highlight its purpose and technologies used.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to email me at <a href="mailto:zymontn@me.com">zymontn@me.com</a>.</p>
+        <p>Phone number: (314) 327-3241</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

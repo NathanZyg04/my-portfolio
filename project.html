@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+    header {
+        background-color: #4e6bc7;
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+    }
+    nav a {
+        color: white;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    nav a:hover {
+        background-color: #575757;
+    }
+    section {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+    }
+    .project {
+        margin-bottom: 2rem;
+    }
+    .project img {
+        max-width: 100%; /* Makes the image responsive */
+        height: auto;    /* Maintains the aspect ratio */
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .image-gallery {
+        display: flex; /* Enables flexbox layout */
+        gap: 1rem; /* Adds spacing between images */
+        justify-content: center; /* Centers the images horizontally */
+        flex-wrap: nowrap; /* Allows wrapping to the next line if needed */
+    }
+    .image-gallery2 {
+        display: flex; /* Enables flexbox layout */
+        gap: 1rem; /* Adds spacing between images */
+        justify-content: center; /* Centers the images horizontally */
+        flex-wrap: nowrap; /* Allows wrapping to the next line if needed */
+    }
+
+    .image-gallery img {
+        max-width: 30%; /* Ensures each image takes up 30% of the container width */
+        height: auto; /* Maintains the aspect ratio */
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .image-gallery2 img {
+        max-width: 80%; /* Ensures each image takes up 30% of the container width */
+        height: auto; /* Maintains the aspect ratio */
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #333;
+        color: white;
+        margin-top: 2rem;
+    }
+    footer a {
+        color: #4e6bc7;
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Project Details</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+    <section>
+        <div class="project">
+            <h2>Macro Tracking iOS App</h2>
+            <div class="image-gallery">
+                <img src="images/thumbnail_image0.png" alt="Macro Tracking iOS App Screenshot 1">
+                <img src="images/thumbnail_image1.png" alt="Macro Tracking iOS App Screenshot 2">
+                <img src="images/thumbnail_image2.png" alt="Macro Tracking iOS App Screenshot 3">
+                <img src="images/thumbnail_image3.png" alt="Macro Tracking iOS App Screenshot 3">
+            </div>
+            <p>This is a Meal/Macro tracking app developed for iOS using Swift and SwiftUI. It allows users to track their daily calorie and macro intake with an intuitive interface.</p>
+            <p>Allows adding of food items to a database, adding recipes and templates, logging foods for a day, caluclating total daily macros, saving previous days' data</p>
+            <p>Currently working on this. Things I want to add is a statistical break down with a easy to read view of graphs and trends of consumption of macros</p>
+            <p>Also would like to add a scan feature for nutrtional labels to make it easier to enter food items</p>
+            <p>Technologies used: Swift, SwiftUI</p>
+            <p>Check out the GitHub repository: <a href="https://github.com/NathanZyg04/macroTracker" target="_blank">Macro Tracking App Repo</a></p>
+        </div>
+        <div class="project">
+            <h2>iFinance</h2>
+            <div class="image-gallery2">
+                <img src="images/iFINANCE_00.png" alt="Macro Tracking iOS App Screenshot 1">
+                <img src="images/iFINANCE_01.png" alt="Macro Tracking iOS App Screenshot 2">
+                <img src="images/iFINANCE_02.png" alt="Macro Tracking iOS App Screenshot 3">
+    
+            </div>
+            
+            <p>A simple finance management application developed using Windows Forms and C# .NET Entity Framework. It helps users manage their expenses and track their financial goals.</p>
+            <p>Technologies used: C#, .NET, Windows Forms, Entity Framework</p>
+            <p>Check out the GitHub repository: <a href="https://github.com/NathanZyg04/Group8_iFINANCE" target="_blank">iFinance Repo</a></p>
+        </div>
+        <div class="project">
+            <h2>Task Managment Web App</h2>
+            <img src="images/project-3.png" alt="Project 3 Screenshot">
+            <p>A brief description of your project. Highlight its purpose and the technologies used. Add more details about the challenges you faced and how you solved them.</p>
+            <p>Technologies used: C# ASP.NET Core Web App, Entity Framework </p>
+            <p>Check out the GitHub repository: <a href="https://github.com/NathanZyg04/project-3" target="_blank">Project 3 Repo</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p>Check out my GitHub: <a href="https://github.com/NathanZyg04/TaskManagementSolution" target="_blank">github.com/NathanZyg04</a></p>
+    </footer>
+</body>
+</html>
